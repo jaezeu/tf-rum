@@ -19,3 +19,7 @@ provider "aws" {
 resource "aws_s3_bucket" "tf_rum_test" {
   bucket_prefix = "tf-jaz-rum-vcs"#
 }
+
+resource "aws_s3_bucket" "tf_rum_test2" {
+  bucket_prefix = "tf-jaz-rum-vcs2"#
+}
